@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const CSGO = require("csgo-api")
-const srv = new CSGO.Server('185.193.165.39', '27015')
+const srv = new CSGO.Server('185.193.165.132', '27015')
 	let query = require("source-server-query")
 
 exports.run = async function(client, message, args) {
